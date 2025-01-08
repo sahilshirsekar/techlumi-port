@@ -1,3 +1,4 @@
+import { div } from "framer-motion/client";
 import { LayoutGrid } from "./layout-grid";
 
 export function LayoutGridMain() {
@@ -9,49 +10,53 @@ export function LayoutGridMain() {
 const cards= [
   {
     id: 1,
-    content: <h2 className="text-lg font-bold">Welcome to TechLuminix</h2>,
-    className: "bg-black text-gray-200 rounded-lg px-50",
-    thumbnail: "./src/assets/layout/lay1.jpg",
+    content: <div className=" text-black">
+    <h1 className="text-4xl font-bold  ">Patholist</h1>
+    Web Development HTML, CSS & JS
+  </div>,
+    className: "bg-black text-gray-200 p-5 rounded-lg",
+    thumbnail: "./src/assets/layout/lay1.png",
   },
   {
     id: 2,
-    content: (
-      <div>
-        <p className="text-sm">Discover innovative solutions for your business needs.</p>
-        <button className="mt-2 px-40 py-2 bg-green-500 text-white rounded">
-          Learn More
-        </button>
-      </div>
-    ),
+    content:<div className=" text-black">
+    <h1 className="text-4xl font-bold  ">Saverr
+    </h1>
+    Software Development Cordova & JS
+    </div>,
     className: "bg-black text-black p-6 rounded-md",
-    thumbnail: "/src/assets/layout/lay2.jpg",
+    thumbnail: "/src/assets/layout/lay2.png",
   },
   {
     id: 3,
-    content: "Join us in shaping the future of technology.",
+    content: <div className=" text-black">
+    <h1 className="text-4xl font-bold  ">BookStore Application
+    </h1>
+    Software Development React Native & MongoDB    </div>,
+    
+    
     className: "bg-black text-gray-200 p-5 rounded-lg",
-    thumbnail: "./src/assets/layout/lay3.jpg",
+    thumbnail: "./src/assets/layout/lay3.png",
   },
   {
     id: 4,
-    content: (
-      <ul className="list-disc list-inside">
-        <li>Custom Software Development</li>
-        <li>UI/UX Design</li>
-        <li>Cloud Integration</li>
-      </ul>
-    ),
+    content:<div className=" text-black">
+    <h1 className="text-4xl font-bold  ">HAATI (Card Customization)
+    </h1>
+    Software Development React Native & Fabric.JS
+    </div>,
     className: "bg-black text-gray-200 p-5 rounded-lg",
-    thumbnail: "/src/assets/layout/lay3.jpg",
+    thumbnail: "/src/assets/layout/lay4.png",
   },
   {
     id: 5,
-    content: (
-      <blockquote className="italic border-l-4 border-blue-500 pl-4">
-        "Innovation distinguishes between a leader and a follower."
-      </blockquote>
-    ),
+    content:<div className=" text-black">
+    <h1 className="text-4xl font-bold  ">Janki Jewellery
+
+    </h1>
+    Web Development / React & Redux
+    </div>,
     className: "bg-black text-white p-6 rounded-lg shadow",
-    thumbnail: "/src/assets/layout/lay3.jpg",
+    thumbnail: "/src/assets/layout/lay5.png",
   },
 ];

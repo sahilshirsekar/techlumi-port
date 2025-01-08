@@ -19,7 +19,7 @@ export function WobbleCardMain() {
           </p>
         </div>
         <Image
-          src="./assets/layout/lay1.jpg"
+          src="./assets/layout/lay1.png"
           width={500}
           height={500}
           alt="linear demo image"
@@ -46,7 +46,7 @@ export function WobbleCardMain() {
           </p>
         </div>
         <Image
-          src="./assets/layout/lay1.jpg"
+          src="./assets/layout/lay1.png"
           width={500}
           height={500}
           alt="linear demo image"

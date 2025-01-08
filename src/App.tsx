@@ -4,6 +4,7 @@ import { Spotlight } from "./components/ui/spotlight";
 import { Hero } from "./components/ui/hero";
 import { WobbleCardMain } from "./components/ui/wobble-card-main";
 import { LayoutGridMain } from "./components/ui/layout-grid-main";
+import { Services } from "./components/ui/services";
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       </div>
       <Hero />
       <Spotlight />
+      <div>
+      <Services></Services>
+      </div>
+      
       <ParallaxScrollSecondMain />
       <WobbleCardMain/>
       <LayoutGridMain></LayoutGridMain>
