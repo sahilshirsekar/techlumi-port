@@ -1,4 +1,4 @@
-import { ParallaxScrollSecond } from "../ui/parallax-scroll-2";
+import { ParallaxScrollSecond } from "./parallax-scroll-2";
 
 export function ParallaxScrollSecondMain() {
   return <ParallaxScrollSecond images={images} />;
