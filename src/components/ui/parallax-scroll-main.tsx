@@ -1,7 +1,10 @@
-import { ParallaxScrollSecond } from "./parallax-scroll-2";
+import { ParallaxScroll } from "./parallax-scroll";
 
-export function ParallaxScrollSecondMain() {
-  return <ParallaxScrollSecond images={images} className="w-1/2" />;
+export default function ParallaxScrollDemo(){
+  return (
+    <ParallaxScroll images={images} className="animate-loop-scroll">
+    </ParallaxScroll>
+  )
 }
 
 const images = [

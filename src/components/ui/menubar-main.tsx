@@ -12,12 +12,12 @@ import { Separator } from "@radix-ui/react-menubar";
 
 function MenubarMain() {
   return(
-    <div className="flex justify-center w-full bg-opacity-50 animate-fade-in-up sticky top-0 z-50 pt-6 space-x-6 " style={{ animationDelay: '0.1s'}}>
-        <Menubar className="border-b backdrop-blur-md bg-opacity-50 bg-black border-gray-700 z-0text-zinc-50 text-lg " >
+    <div className="flex justify-center w-full bg-opacity-50 animate-fade-in-up sticky top-0 z-50 pt-6 space-x-14" style={{ animationDelay: '0.1s'}}>
+        <Menubar className="border-b backdrop-blur-md bg-opacity-50 bg-black border-gray-700 z-0 text-zinc-50 text-lg " >
           <Image src="./src/assets/logo.png" alt="Tech" className="w-14"></Image>
           <h1 className="text-2xl font-bold font-mono pr-16 ">TECHLUMINIX</h1>
         <MenubarMenu >
-          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light ">Home</MenubarTrigger>
+          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 transform transition duration-700 ease-in-out  text-md font-light ">Home</MenubarTrigger>
           <MenubarContent className="bg-black text-white">
             <MenubarItem className="focus:bg-white hover:cursor-pointer ">
               New Tab <MenubarShortcut>⌘T</MenubarShortcut>
@@ -30,7 +30,7 @@ function MenubarMain() {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light">About</MenubarTrigger>
+          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light transform transition duration-700 ease-in-out ">About</MenubarTrigger>
           <MenubarContent className="bg-black text-white">
             <MenubarItem className="focus:bg-white hover:cursor-pointer">About Us</MenubarItem>
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Our Mission</MenubarItem>
@@ -41,7 +41,7 @@ function MenubarMain() {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light">Portfolio</MenubarTrigger>
+          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light transform transition duration-700 ease-in-out ">Portfolio</MenubarTrigger>
           <MenubarContent className="bg-black text-white">
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Projects</MenubarItem>
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Case Studies</MenubarItem>
@@ -52,7 +52,7 @@ function MenubarMain() {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400  text-md font-light">Services</MenubarTrigger>
+          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400  text-md font-light transform transition duration-700 ease-in-out ">Services</MenubarTrigger>
           <MenubarContent className="bg-black text-white">
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Web Development</MenubarItem>
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Mobile Apps</MenubarItem>
@@ -63,7 +63,7 @@ function MenubarMain() {
           </MenubarContent>
         </MenubarMenu>
         <MenubarMenu>
-          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light">Contact</MenubarTrigger>
+          <MenubarTrigger className="focus:bg-white hover:cursor-pointer hover:text-zinc-400 text-md font-light transform transition duration-700 ease-in-out ">Contact</MenubarTrigger>
           <MenubarContent className="bg-black text-white">
             <MenubarItem className="focus:bg-white hover:cursor-pointer ">Email Us</MenubarItem>
             <MenubarItem className="focus:bg-white hover:cursor-pointer">Phone</MenubarItem>

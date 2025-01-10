@@ -8,7 +8,7 @@ export function Services() {
     window.location.href = 'https://google.com'
   }
   return (
-    <div className="flex flex-row items-start text-left  mx-20">
+    <div className="flex flex-row items-start text-left mx-20">
       <div className="flex flex-col items-start text-left">
         <h3 className=" text-8xl font-bold mb-4"></h3>
         Our Services
@@ -22,7 +22,7 @@ export function Services() {
       </p>
       <button
           onClick={handleClick}
-          className={buttonVariants({ variant: "outline" , className:"mt-10 p-6 text-2xl bg-black"})}
+          className={buttonVariants({ variant: "outline" , className:"mt-10 p-6 text-2xl bg-black transform transition duration-700 ease-in-out"})}
         >
           View All Services
         </button>

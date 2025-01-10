@@ -29,8 +29,8 @@ export function AnimatedCardBackgroundHover() {
         className='rounded-lg bg-zinc-100 dark:bg-zinc-800 '
         transition={{
           type: 'spring',
-          bounce: 0.2,
-          duration: 0.6,
+          bounce: 0.1,
+          duration: 0.7,
         }}
         enableHover
       >

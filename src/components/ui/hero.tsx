@@ -24,7 +24,6 @@ export function Hero() {
           className="inline-block animate-fade-in-up"
           style={{ animationDelay: "0.2s" }}
         >
-          We are the architects of your digital dreams.
         </span>{" "}
       </h4>
       <div className="p-5">
